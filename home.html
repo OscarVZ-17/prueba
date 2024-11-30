@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar & Yuritzi - Nuestro Amor</title>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="toggle-sidebar">
+            <i class="fas fa-heart"></i>
+        </div>
+        <div class="logo">
+            <i class="fas fa-heart"></i>
+            <h2>Nuestro Amor</h2>
+        </div>
+        <nav>
+            <a href="#inicio" class="active"><i class="fas fa-home"></i><span>Inicio</span></a>
+            <a href="#recuerdos"><i class="fas fa-camera"></i><span>Recuerdos</span></a>
+            <a href="#poemas"><i class="fas fa-book"></i><span>Poemas</span></a>
+            <a href="#diario"><i class="fas fa-journal-whills"></i><span>Diario</span></a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="inicio" class="active-section">
+            <div class="grid-container">
+                <div class="card" id="momentos">
+                    <h3>Momentos</h3>
+                    <p>Cada instante juntos es un tesoro que guardamos en nuestro corazón. Los pequeños detalles, las risas compartidas y los abrazos sinceros construyen nuestra historia de amor.</p>
+                </div>
+                <div class="card" id="amor">
+                    <h3>Amor</h3>
+                    <p>Nuestro amor crece cada día más fuerte y más hermoso. Como un jardín bien cuidado, florece con cada gesto de cariño y cada palabra de amor que compartimos.</p>
+                </div>
+                <div class="card" id="futuro">
+                    <h3>Futuro</h3>
+                    <p>Juntos construimos un futuro lleno de sueños y esperanzas. Cada paso que damos es una promesa de amor eterno, un camino que recorremos de la mano.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="recuerdos">
+            <div class="carousel">
+                <div class="carousel-container">
+                    <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="poemas">
+            <div class="poems-container">
+                <!-- Los poemas se cargarán dinámicamente con JavaScript -->
+            </div>
+        </section>
+
+        <section id="diario">
+            <div class="diary-container">
+                <div class="diary-entry">
+                    <textarea placeholder="Escribe tu entrada del diario aquí..."></textarea>
+                    <button class="save-entry">Guardar</button>
+                </div>
+                <div class="diary-entries">
+                    <!-- Las entradas del diario se cargarán dinámicamente -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/home.js"></script>
+</body>
+</html>
